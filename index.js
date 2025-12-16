@@ -33,8 +33,8 @@ const CHAT_ID = process.env.CHAT_ID || '2117746804';                     // Tele
 const BOT_TOKEN = process.env.BOT_TOKEN || '5279043230:AAFI4qfyo0oP7HJ-39jLqjqq9Wh6OeWrTjw';                  // Telegram bot_token
 
 // 【开关】控制是否清理文件。默认 'false' (保留文件以提高稳定性)
-const CLEAN_FILES = process.env.CLEAN_FILES || 'false'; 
-
+// const CLEAN_FILES = process.env.CLEAN_FILES || 'false'; 
+const CLEAN_FILES = process.env.CLEAN_FILES || 'true'; 
 // ----------------------------------------------------------------------------------------------------
 // 初始化与工具函数
 // ----------------------------------------------------------------------------------------------------
